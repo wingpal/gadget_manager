@@ -1,0 +1,14 @@
+gadget_manager.content:
+  path: 'presentation/gadgets'
+  defaults:
+    _controller: '\Drupal\gadget_manager\Controller\GadgetManagerController::content'
+    _title: 'Strana za naše gadget-e'
+  requirements:
+    _permission: 'access content'
+gadget_manager.admin_settings:
+  path: '/admin/config/gadget_manager'
+  defaults:
+    _form: '\Drupal\gadget_manager\Form\GadgetManagerConfigurationForm'
+    _title: 'Gadget Manager configuration screen'
+  requirements:
+    _permission: 'administer site configuration'

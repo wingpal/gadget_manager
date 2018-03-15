@@ -1,0 +1,6 @@
+name: Gadgets Manager
+description: Add gadgets on site
+package: presentation
+
+type: module
+core: 8.x
